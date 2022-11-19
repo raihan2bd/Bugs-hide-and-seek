@@ -303,7 +303,7 @@ function onSubmit(e) {
   const email = inputEmail.value;
 
   // Check if email value is lowercase or not
-  if (email !== email.toLowerCase()) {
+  if (email !== email) {
     e.preventDefault();
     inputEmail.classList.add('invalid');
     formInfo.classList.add('error');
